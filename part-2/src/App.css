@@ -1,0 +1,57 @@
+.colorList {
+  text-align: center;
+  padding: 75px;
+}
+
+.colorList ul {
+  list-style-type: none;
+}
+
+.colorList a {
+  text-decoration: none;
+  color: #000;
+}
+
+.colorList a:hover{
+  color: #8e8e8e;
+}
+
+form {
+  padding: 150px;
+}
+
+form input {
+  margin-bottom: 30px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+form [type=submit] {
+  padding: 10px;
+  background: #000026;
+  color: #fff;
+  border: none;
+}
+
+form [type=submit]:hover {
+  color: #8e8e8e;
+}
+
+.color {
+  height: 100vh;
+  text-align: center;
+  padding: 75px;
+  overflow-y: hidden;
+  color: #fff;
+}
+
+.color a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.color a:hover {
+  color: #8e8e8e;
+}
