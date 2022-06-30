@@ -14,3 +14,38 @@ nav a {
 nav a:hover {
   color: #8e8e8e;
 }
+
+/* DogList */
+.dogList {
+  text-align: center;
+}
+
+.showDogs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 75px;
+  justify-content: center;
+}
+
+.showDog {
+  padding: 50px;
+}
+
+/* DogDetails */
+.dog {
+  text-align: center;
+  padding: 75px;
+}
+
+.dog ul {
+  list-style-type: none;
+}
+
+.dog a {
+  color: #000;
+  text-decoration: none;
+}
+
+.dog a:hover {
+  color: #8e8e8e;
+}

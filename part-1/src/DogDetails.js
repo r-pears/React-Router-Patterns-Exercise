@@ -7,15 +7,17 @@ function DogDetails({ dog }) {
   
   return (
     <div className='dogDetails'>
-      <img src={dog.src} alt={dog.name} />
-      <h1>{dog.name}</h1>
-      <h3>{dog.age} years old</h3>
-      <ul>
-        {dog.facts.map((fact, index) => (
-          <li key={index}>{fact}</li>
-        ))}
-      </ul>
-      <Link to="/dogs">Go back</Link>
+      <div className='dog'>
+        <img src={dog.src} alt={dog.name} />
+        <h1>{dog.name}</h1>
+        <h3>{dog.age} years old</h3>
+        <ul>
+          {dog.facts.map((fact, index) => (
+            <li key={index}>{fact}</li>
+          ))}
+        </ul>
+        <Link to="/dogs">Go back</Link>        
+      </div>
     </div>
   );
 }

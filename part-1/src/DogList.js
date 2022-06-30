@@ -8,7 +8,7 @@ function DogList({ dogs }) {
       <h2>These dogs are available, click on them for more info.</h2>
       <div className='showDogs'>
         {dogs.map(dog => (
-          <div key={dog.name}>
+          <div className='showDog' key={dog.name}>
             <img src={dog.src} alt={dog.name} />
             <h3>
               <Link to={`/dogs/${dog.name.toLowerCase()}`}>{dog.name}</Link>
